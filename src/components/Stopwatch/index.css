@@ -1,0 +1,72 @@
+/* Write CSS here */
+.stop-watch-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+}
+.img {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+.flex {
+  display: flex;
+}
+.head {
+  font-family: 'Roboto';
+  color: #333333;
+  font-size: 22px;
+  margin-top: 12px;
+  font-weight: bold;
+}
+.card {
+  box-shadow: 0px 4px 16px 0px;
+  background-color: white;
+  height: 300px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 15px;
+  flex-direction: column;
+}
+.timer {
+  font-family: 'Roboto';
+  color: #333333;
+  font-size: 32px;
+  font-weight: bold;
+}
+.button1 {
+  height: 30px;
+  width: 80px;
+  background-color: #1db05f;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  margin-left: 4px;
+  border: 0px;
+  border-radius: 3px;
+}
+.button2 {
+  height: 30px;
+  width: 80px;
+  background-color: #ef0d36;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  margin-left: 4px;
+  border: 0px;
+  border-radius: 3px;
+}
+.button3 {
+  height: 30px;
+  width: 80px;
+  background-color: #eaa800;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  margin-left: 4px;
+  border: 0px;
+  border-radius: 3px;
+}
